@@ -1,0 +1,15 @@
+org: amplil
+app: aws-node-express-api
+service: ec-comparison-api
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  region: ap-northeast-1
+
+functions:
+  api:
+    handler: index.handler
+    events:
+      - httpApi: '*'
