@@ -2,6 +2,7 @@ org: amplil
 app: aws-node-express-api
 service: ec-comparison-api
 frameworkVersion: '3'
+useDotenv: true
 
 provider:
   name: aws

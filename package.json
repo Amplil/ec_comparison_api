@@ -5,13 +5,19 @@
   "main": "index.js",
   "dependencies": {
     "aws-sdk": "^2.1137.0",
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.10",
+    "dotenv": "^16.0.1",
+    "ebay-oauth-nodejs-client": "^1.2.1",
     "express": "^4.18.1",
+    "nodemon": "^2.0.16",
     "serverless-http": "^3.0.1"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon local.js"
   },
   "author": "",
   "license": "ISC"
